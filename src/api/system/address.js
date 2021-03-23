@@ -1,53 +1,53 @@
 import request from '@/utils/request'
 
-// 查询机构地址列表
+// 查询单位地址列表
 export function listAddress(query) {
-  return request({
-    url: '/system/address/list',
-    method: 'get',
-    params: query
-  })
+    return request({
+        url: '/system/address/list',
+        method: 'get',
+        params: query
+    })
 }
 
-// 查询机构地址详细
+// 查询单位地址详细
 export function getAddress(addressId) {
-  return request({
-    url: '/system/address/' + addressId,
-    method: 'get'
-  })
+    return request({
+        url: '/system/address/' + addressId,
+        method: 'get'
+    })
 }
 
-// 新增机构地址
+// 新增单位地址
 export function addAddress(data) {
-  return request({
-    url: '/system/address',
-    method: 'post',
-    data: data
-  })
+    return request({
+        url: '/system/address',
+        method: 'post',
+        data: data
+    })
 }
 
-// 修改机构地址
+// 修改单位地址
 export function updateAddress(data) {
-  return request({
-    url: '/system/address',
-    method: 'put',
-    data: data
-  })
+    return request({
+        url: '/system/address',
+        method: 'put',
+        data: data
+    })
 }
 
-// 删除机构地址
+// 删除单位地址
 export function delAddress(addressId) {
-  return request({
-    url: '/system/address/' + addressId,
-    method: 'delete'
-  })
+    return request({
+        url: '/system/address/' + addressId,
+        method: 'delete'
+    })
 }
 
-// 导出机构地址
+// 导出单位地址
 export function exportAddress(query) {
-  return request({
-    url: '/system/address/export',
-    method: 'get',
-    params: query
-  })
+    return request({
+        url: '/system/address/export',
+        method: 'get',
+        params: query
+    })
 }

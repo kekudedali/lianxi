@@ -1,6 +1,6 @@
 import request from '@/utils/request'
 
-// 查询机构 
+// 查询单位 
 export function listArea(query) {
     return request({
         url: '/stock/area/list',

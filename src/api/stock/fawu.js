@@ -126,7 +126,7 @@ export function importTemplate() {
     })
 }
 
-// 查询机构地址列表
+// 查询单位地址列表
 export function listAddress(query) {
     return request({
         url: '/materiel/deliver/list',
@@ -135,7 +135,7 @@ export function listAddress(query) {
     })
 }
 
-// 查询机构地址详细
+// 查询单位地址详细
 export function getAddress(addressId) {
     return request({
         url: '/materiel/deliver/' + addressId,
@@ -143,7 +143,7 @@ export function getAddress(addressId) {
     })
 }
 
-// 新增机构地址
+// 新增单位地址
 export function addAddress(data) {
     return request({
         url: '/materiel/deliver',
@@ -152,7 +152,7 @@ export function addAddress(data) {
     })
 }
 
-// 修改机构地址
+// 修改单位地址
 export function updateAddress(data) {
     return request({
         url: '/materiel/deliver',
@@ -161,7 +161,7 @@ export function updateAddress(data) {
     })
 }
 
-// 删除机构地址
+// 删除单位地址
 export function delAddress(addressId) {
     return request({
         url: '/materiel/deliver/' + addressId,
@@ -169,7 +169,7 @@ export function delAddress(addressId) {
     })
 }
 
-// 导出机构地址
+// 导出单位地址
 export function exportAddress(query) {
     return request({
         url: '/materiel/deliver/export',

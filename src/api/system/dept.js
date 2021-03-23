@@ -117,7 +117,7 @@ export function delDept(deptId) {
     })
 }
 
-// 部队机构管理-> 导入模板
+// 部队单位管理-> 导入模板
 export function importOrg() {
     return request({
         url: '/system/init/import_org/template',

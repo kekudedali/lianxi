@@ -10,7 +10,7 @@
       <h1 class="h1-page">{{item.requestDeptName}}请领单</h1>
       <el-row class="row">
         <el-col :span="6">&nbsp;&nbsp;<span>请领单号：{{ item.requestId }}</span></el-col>
-        <el-col :span="8">&nbsp;&nbsp;<span>请领机构：{{ item.requestDeptName }}</span></el-col>
+        <el-col :span="8">&nbsp;&nbsp;<span>请领单位：{{ item.requestDeptName }}</span></el-col>
         <el-col :span="10">&nbsp;&nbsp;<span>发货要求：{{ item.sendDemand }}</span></el-col>
       </el-row>
       <el-row class="row">
@@ -29,7 +29,7 @@
         <tr>
           <td height="40" style="width:40%;">油品名称</td>
           <td style="width:20%;">请领数量</td>
-          <td style="width:20%;">供货机构</td>
+          <td style="width:20%;">供货单位</td>
           <td style="width:20%;">供货仓库</td>
           <!--<td>有齿无齿</td>-->
           <!--<td>材质特征</td>-->
@@ -59,7 +59,7 @@
         </tr>
       </table>
       <el-row class="row">
-        <el-col :span="12">&nbsp;&nbsp;<span>填报机构：{{ item.createDeptName }}</span></el-col>
+        <el-col :span="12">&nbsp;&nbsp;<span>填报单位：{{ item.createDeptName }}</span></el-col>
         <el-col :span="12">&nbsp;&nbsp;<span>填报人员：</span></el-col>
       </el-row>
     </div>
