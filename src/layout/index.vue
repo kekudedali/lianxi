@@ -28,7 +28,6 @@ import { AppMain, Navbar, Settings, Sidebar, TagsView } from './components'
 import ResizeMixin from './mixin/ResizeHandler'
 import { mapState } from 'vuex'
 import variables from '@/assets/styles/variables.scss'
-import BillPrint from '@/views/print/billPrint';
 import KcylbgbPrint from '@/views/print/kcylbgbPrint';
 import fsylshdPrint from '@/views/print/fsylshdPrint';
 import fsylfhdPrint from '@/views/print/fsylfhdPrint';
@@ -43,7 +42,6 @@ export default {
     Settings,
     Sidebar,
     TagsView,
-    BillPrint,
     KcylbgbPrint,
     fsylshdPrint,
     fsylfhdPrint,

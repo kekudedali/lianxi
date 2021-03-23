@@ -19,7 +19,7 @@
 
 <script>
 // fuse is a lightweight fuzzy-search module
-// make search results more in line with expectations
+// make search results more in line with expectations 智能搜索
 import Fuse from 'fuse.js/dist/fuse.min.js'
 import path from 'path'
 

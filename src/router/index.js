@@ -8,9 +8,9 @@ import Layout from '@/layout'
 export const constantRoutes = [{
         path: '',
         component: Layout,
-        redirect: 'index',
+        redirect: '/home',
         children: [{
-            path: 'index',
+            path: '/home',
             component: (resolve) => require(['@/views/index'], resolve),
             name: '首页',
             meta: { title: '首页', icon: 'dashboard', noCache: true, affix: true }
